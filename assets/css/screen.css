@@ -1,0 +1,93 @@
+#hero{
+    background: linear-gradient(45deg, rgb(228 11 11 / 90%) 0%, rgb(0 0 0 / 90%) 100%), url(../img/hero-bg.jpg) center center no-repeat;
+}
+#header.header-scrolled, #header.header-inner-pages{
+    background: rgb(185 6 6 / 80%);
+}
+.about .content .read-more {
+    background-color: #cc141c;
+    border: 0.18rem solid #cc141c;
+    transition: 0.5s;
+}
+
+.about .content .read-more:hover {
+    background-color: white;
+    color:red;
+    border-radius: 5px;
+    border: 0.18rem solid #cc141c;
+  }
+  #hero .btn-get-started:hover {
+    background: #fff;
+    color: #cc141c;
+  }
+
+  .about .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #ff000d;;
+}
+.section-title h2::after{
+    background: red;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active{
+    background: red;
+}
+.back-to-top {
+    background: #cc141c;
+    border-radius: 5px;
+}
+.back-to-top:hover{
+    background: red;
+    color: red;
+}
+#footer {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.9) 0%, rgba(214, 138, 15, 0.9) 100%) 0% 0% / cover, url(../img/hero-bg.jpg) center center no-repeat;
+}
+#footer .copyright-wrap {
+    border-top: 0px solid red;
+}
+.contact .info-box i {
+    font-size: 32px;
+    color: red;
+    border-radius: 50%;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+    color:#cc141c;
+    transition: 0.5s;
+}
+a:hover{
+    color:red;
+}
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid red;
+    border-top-color: #e7e4fe;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+  }
+  .portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgb(255, 78, 78);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+.img-fluid {
+    max-width: 55%;
+    margin-left: 8rem;
+    height: auto;
+}
