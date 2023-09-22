@@ -87,9 +87,12 @@ a:hover{
     opacity: 0;
 }
 .img-fluid {
-    max-width: 55%;
+    max-width: 100%;
     margin-left: 0rem;
     height: auto;
+}
+#features{
+    max-width: 55%;
 }
 @media screen and (min-width: 992px) {
     #features{
