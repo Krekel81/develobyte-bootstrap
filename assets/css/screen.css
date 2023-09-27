@@ -100,3 +100,36 @@ a:hover{
     }
 }
     
+#contactme{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.contact .php-email-form button[type=submit] {
+    background: rgb(255, 78, 78);
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border: 0.18rem solid rgb(255, 78, 78);
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    color:red;
+    background: white;
+    padding: 10px 24px;
+    transition: 0.4s;
+    border: 0.18rem solid rgb(255, 78, 78);
+}
+
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: rgb(255, 78, 78);
+}
+#feature-div{
+    display: flex;
+}
+#feature-div img{
+    margin: 0 auto;
+}
+#about 
+{
+    padding: 8rem 0;   
+}
