@@ -94,11 +94,7 @@ a:hover{
 #features{
     max-width: 55%;
 }
-@media screen and (min-width: 992px) {
-    #features{
-        margin-left: 8rem;
-    }
-}
+
     
 #contactme{
     margin-bottom: 2rem;
@@ -127,9 +123,20 @@ a:hover{
     display: flex;
 }
 #feature-div img{
-    margin: 0 auto;
+    margin: auto;
 }
 #about 
 {
     padding: 8rem 0;   
+}
+@media screen and (min-width: 992px) {
+    #features{
+        margin-left: 8rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    #feature-div {
+        padding-bottom: 4rem;
+    }
+
 }
