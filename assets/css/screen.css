@@ -1,5 +1,6 @@
 #hero{
     background: linear-gradient(45deg, rgb(228 11 11 / 90%) 0%, rgb(0 0 0 / 90%) 100%), url(../img/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
 }
 #header.header-scrolled, #header.header-inner-pages{
     background: rgb(185 6 6 / 80%);
